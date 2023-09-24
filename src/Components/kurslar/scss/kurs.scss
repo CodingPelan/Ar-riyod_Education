@@ -1,0 +1,495 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+// *{
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+//     list-style: none;
+//     text-decoration: none!important;  
+//     overflow: auto;  
+// }
+
+// // web site :root part;
+
+// $font-Roboto: 'Roboto', sans-serif;
+
+// // https://grandtalim.uz/images/background-count-number.png
+
+// // web site laptoop pard or responsive;
+
+// @media (max-width: 1920px) {
+//     .Kurs_PageAll_part_or_Header{
+//         width: 100%;
+//         height: auto;
+//         .topinfo{
+//             width: 100%;
+//             height: 52px;
+//             background: #242c42;
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-between;
+//             padding-left: 100px;
+//             padding-right: 100px;
+//             // position: fixed;
+//             // z-index: 100;
+//                 .leftInfo{
+//                     a:nth-child(1){
+//                         font-size: 12px;
+//                         color: #ffffff;
+//                         font-family: $font-Roboto;
+//                         transition: 0.2s;
+//                             &:hover{
+//                                 color: #28a745;
+//                             }
+//                             .fa-envelope{
+//                                 width: 16px;
+//                                 height: 16px;
+//                                 color: #28a745;
+//                                 margin-right: 5px;
+//                             }
+//                     }
+//                     a:nth-child(2){
+//                         font-size: 12px;
+//                         color: #ffffff;
+//                         font-family: $font-Roboto;
+//                         transition: 0.2s;
+//                         margin-left: 15px;
+//                             &:hover{
+//                                 color: #28a745;
+//                             }
+//                             .fa-phone{
+//                                 width: 16px;
+//                                 height: 16px;
+//                                 color: #28a745;
+//                                 margin-right: 5px;
+//                             }
+//                     }
+//                 }
+//                 .rightinfo{
+//                     display: flex;
+//                         .box{
+//                             width: 60.25px;
+//                             height: 20px;
+//                             display: flex;
+//                             align-items: center;
+//                             justify-content: center;
+//                             border-right: 1px solid #a7abb3;
+//                             transition: 0.2s;
+//                             cursor: pointer;
+//                                 &:hover{
+//                                         h2{
+//                                             color: #28a745;
+//                                         }
+//                                 }
+//                                 h2{
+//                                     font-size: 12px;
+//                                     font-weight: 300;
+//                                     font-family: $font-Roboto;
+//                                     color: #ffffff;
+//                                 }
+//                         }
+//                 }
+//         }
+//         .butonInfo{
+//             width: 100%;
+//             height: 100px;
+//             padding-left: 100px;
+//             padding-right: 100px;
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-between;
+//             // position: fixed;
+//             // z-index: 100;
+//             background: #ffffff;
+//             // top: 50px;
+//                 .logo{
+//                     width: 220px;
+//                     height: 73.5px;
+//                     a{
+//                         img{
+//                             width: 220px;
+//                             height: 73.5px;
+//                         }
+//                     }
+//                 }
+//                 .rightList{
+//                     align-items: center;
+//                     display: flex;
+//                     ul{
+//                         display: flex;
+//                         width: auto;
+//                             li{
+//                                 margin-left: 20px;
+//                                     a{
+//                                         font-family: $font-Roboto;
+//                                         color: #242c42;
+//                                         font-size: 18px;
+//                                         font-weight: 400;
+//                                         transition: 0.3s;
+//                                         line-height: 30px;
+//                                         text-decoration: none;
+//                                             &:hover{
+//                                                 color: #28a745;
+//                                             }
+//                                             &:hover::after{
+//                                                 width: 100%;
+//                                             }
+//                                             &::after{
+//                                                 content: '';
+//                                                 width: 0;
+//                                                 height: 2px;
+//                                                 display: block;
+//                                                 background: #28a745;
+//                                                 margin: auto;
+//                                                 border-radius: 5px;
+//                                                 transition: 0.3s;
+//                                             }
+//                                     }
+//                             }
+//                     }
+//                     .buttom{
+//                         width: 130px;
+//                         height: 100px;
+//                         margin-left: 20px;
+//                         display: flex;
+//                         align-items: center;
+//                         justify-content: center;
+//                         background: #28a745;
+//                         color: #ffffff;
+//                         font-family: $font-Roboto;
+//                         text-decoration: none;
+//                     }
+//                 }
+//         }
+//         .butonInfoMedia{
+//             display: none;
+//         }   
+//         .headerFenesh{
+//             width: 100%;
+//             height: 300px;
+//             background: url(	https://grandtalim.uz/images/background-count-number.png)no-repeat center center / cover;
+//             display: flex;
+//             align-items: center;
+//             flex-direction: column;
+//             justify-content: center;
+//                 h1{
+//                     color: #ffffff;
+//                     font-family: $font-Roboto;
+//                     font-size: 42px;
+//                     font-weight: bold;
+//                 }
+//                 .linkAllPage{
+//                     a{
+//                         color: #d6d6d6;
+//                         font-size: 14px;
+//                         font-family: $font-Roboto;
+//                         transition: 0.2s;
+//                         transition: 0.1s;
+//                            .fa-chevron-right{
+//                                 margin-right: 5px;
+//                                 margin-left: 5px;
+//                                 width: 14px;
+//                                 height: 14px;
+//                            }
+//                            &:hover{
+//                                 color: #28a745;
+//                                     .fa-chevron-right{
+//                                         color: #ffffff;
+//                                     }
+//                             }
+//                     }
+//                     a:nth-child(2){
+//                         color: #ffffff;
+//                             &:hover{
+//                                 color: #28a745;
+//                            }
+//                     }
+//                 }
+            
+//         }
+//     }
+//     .mobilni{
+//         display: none;
+//     }
+//     .All_kurs_part{
+//         width: 100%;
+//         height: auto;
+//         // border: 2px solid red;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-around;
+//         flex-wrap: wrap;
+//         padding: 50px;
+//             .cardinfo{
+//                 width: 551px;
+//                 height: 300px;
+//                 // border: 2px solid red;
+//                 display: flex;
+//                 background-color: #f7f7f7;
+//                 align-items: center;
+//                 margin-top: 50px;
+//                 transition: 0.3s;
+//                 overflow: hidden;
+//                     &:hover{
+//                         background: #ffffff;
+//                         cursor: pointer;
+//                         box-shadow: 0 0 10px 1px #a7abb3;
+//                     }
+//                     &:hover::before{
+//                         height: 100%;
+//                     }
+//                     &::before{
+//                         content: '';
+//                         width: 4px;
+//                         height: 0;
+//                         display: block;
+//                         background: #49575f;
+//                         transition: 0.3s;
+//                     }
+//                     .cartleft_info{
+//                         width: 300px;
+//                         // border: 2px solid red;
+//                         height: 255px;
+//                         padding-right: 25px;
+//                         padding-left: 25px;
+//                         overflow: hidden;
+//                             a:nth-child(1){
+//                                 font-size: 18px;
+//                                 color: #49575f;
+//                                 font-weight: bold;
+//                                 transition: 0.2s;
+//                                     &:hover{
+//                                         color: #28a745;
+//                                     }
+//                                 }
+//                                 .onerr{
+//                                     font-size: 14px;
+//                                     font-weight: bold;
+//                                     width: 116.36px;
+//                                     height: 40px;
+//                                     background: #28a745;
+//                                     display: block;
+//                                     display: flex;
+//                                     align-items: center;
+//                                     justify-content: center;
+//                                     color: #ffffff;
+//                                     transition: 0.2s;
+//                                     margin-top: 30px;
+//                                         &:hover{
+//                                             background: #242c42;
+//                                         }
+                                        
+//                                 }
+//                             p{
+//                                 font-size: 14px;
+//                                 font-weight: 400;
+//                                 margin-top: 25px;
+//                             }
+//                     }
+//                     .cardlft_info{
+//                         width: 300px;
+//                         height: 255px;
+//                         overflow: hidden;
+//                             img{
+//                                 width: 100%;
+//                                 height: 255px;
+//                                 margin-right: -50px;
+//                             }
+//                     }
+//             }
+//     }
+// }
+
+// @media (max-width: 700px) {
+//     .Kurs_PageAll_part_or_Header{
+//         width: 100%;
+//         height: auto;
+//         .topinfo{
+//             display: none;
+//         }
+//         .butonInfo{
+//             display: none;
+//         }
+//         .butonInfoMedia{
+//             display: block;
+//             width: 100%;
+//             height: 61.2667px;
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-between;
+//             padding-left: 10px;
+//             padding-right: 10px;
+//                 .logo{
+//                     width: 125px;
+//                     height: 41.7667px;
+//                         a{
+//                             img{
+//                                 width: 125px;
+//                                 height: 41.7667px;
+//                             }
+//                         }
+//                 }
+//                 button{
+//                     background: #28a745;
+//                     border: none;
+//                     outline: none;
+//                     box-shadow: none;
+//                     width: 50px;
+//                     height: 44px;
+//                         .fa-bars{
+//                             width: 23px;
+//                             height: 23px;
+//                         }
+//                 }
+//                 .offcanvas{
+//                     width: 100%;
+//                     height: auto;
+//                     background: #242c42;
+//                         .offcanvas-header{
+//                             border-bottom: 2px solid #28a745;
+//                             .text-reset{
+//                                 background: #28a745;
+//                                 border: none;
+//                                 outline: none;
+//                                 box-shadow: none;
+//                                 width: 50px;
+//                                 height: 44px;
+//                                     .fa-xmark{
+//                                         width: 23px;
+//                                         height: 23px;
+//                                         color: #ffffff;
+//                                     }
+//                             }
+//                         }
+//                         .offcanvas-body{
+//                             ul{
+//                                 li{
+//                                     a{
+//                                         color: #ffffff;
+//                                         font-size: 20px;
+//                                     }
+//                                 }
+//                             }
+//                         }
+//                 }
+//         }
+//     }
+//     .All_kurs_part{
+//         width: 100%;
+//         height: auto;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-around;
+//         flex-wrap: wrap;
+//         padding: 20px;
+//         display: none;
+//             .cardinfo{
+//                 width: 100%;
+//                 height: auto;
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: start ;
+//                 // border: 2px solid red;
+//                 flex-wrap: wrap;
+//                 padding: 10px;
+//                     .cartleft_info{
+//                         width: 100%;
+//                         height: auto;
+//                         padding: 5px;
+//                     }
+//             }
+//     }
+//     .mobilni{
+//         display: block;
+//         width: 100%;
+//         height: auto;
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-around;
+//         flex-wrap: wrap;
+//         padding: 20px;
+//             .cardinfo{
+//                 width: 100%;
+//                 height: auto;
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: start ;
+//                 // border: 2px solid red;
+//                 flex-wrap: wrap;
+//                 padding: 10px;
+//                 background: #F7F7F7;
+//                 margin-top: 50px;
+//                 transition: 0.3s;
+//                 overflow: hidden;
+//                     &:hover{
+//                         background: #ffffff;
+//                         cursor: pointer;
+//                         box-shadow: 0 0 10px 1px #a7abb3;
+//                     }
+//                     &:hover::before{
+//                         height: 100%;
+//                     }
+//                     &::before{
+//                         content: '';
+//                         width: 4px;
+//                         height: 0;
+//                         display: block;
+//                         background: #49575f;
+//                         transition: 0.3s;
+//                     }
+//                     .cartleft_info{
+//                         width: 100%;
+//                         height: auto;
+//                         padding: 5px;
+//                         overflow: hidden;
+//                             a:nth-child(1){
+//                             font-size: 18px;
+//                             color: #49575f;
+//                             font-weight: bold;
+//                             transition: 0.2s;
+//                                 &:hover{
+//                                     color: #28a745;
+//                                 }
+//                             }
+//                             .onerr{
+//                                 font-size: 14px;
+//                                 font-weight: bold;
+//                                 width: 116.36px;
+//                                 height: 40px;
+//                                 background: #28a745;
+//                                 display: block;
+//                                 display: flex;
+//                                 align-items: center;
+//                                 justify-content: center;
+//                                 color: #ffffff;
+//                                 transition: 0.2s;
+//                                 margin-top: 30px;
+//                                 margin-left: auto;
+//                                     &:hover{
+//                                         background: #242c42;
+//                                     }
+                                    
+//                             }
+//                         p{
+//                             font-size: 14px;
+//                             font-weight: 400;
+//                             margin-top: 25px;
+//                         }
+//                     }
+//                     .cardlft_info{
+//                         width: 100%;
+//                         height: auto;
+//                         overflow: hidden;
+//                         display: flex;
+//                         align-items: center;
+//                         justify-content: center;
+//                             img{
+//                                 width: 100%;
+//                                 height: 200px;
+//                                 margin: auto;
+//                             }
+//                     }
+//             }
+//     }
+    
+// }

@@ -1,0 +1,1893 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none!important;
+}
+
+// web site :root part;
+
+$font-Roboto: 'Roboto', sans-serif;
+
+// https://grandtalim.uz/images/background-count-number.png
+
+// web site laptoop pard or responsive;
+
+@media (max-width: 1920px) {
+    .AsosiyPage{
+        width: 100%;
+        overflow: hidden;
+            .topinfo{
+                width: 100%;
+                height: 52px;
+                background: #242c42;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-left: 100px;
+                padding-right: 100px;
+                // position: fixed;
+                // z-index: 100;
+                    .leftInfo{
+                        a:nth-child(1){
+                            font-size: 12px;
+                            color: #ffffff;
+                            font-family: $font-Roboto;
+                            transition: 0.2s;
+                                &:hover{
+                                    color: #28a745;
+                                }
+                                .fa-envelope{
+                                    width: 16px;
+                                    height: 16px;
+                                    color: #28a745;
+                                    margin-right: 5px;
+                                }
+                        }
+                        a:nth-child(2){
+                            font-size: 12px;
+                            color: #ffffff;
+                            font-family: $font-Roboto;
+                            transition: 0.2s;
+                            margin-left: 15px;
+                                &:hover{
+                                    color: #28a745;
+                                }
+                                .fa-phone{
+                                    width: 16px;
+                                    height: 16px;
+                                    color: #28a745;
+                                    margin-right: 5px;
+                                }
+                        }
+                    }
+                    .icon_one_box{
+                        width: 250px;
+                        // border: 2px solid red;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        height: auto;
+                            a{
+                                width: 30px;
+                                height: 30px;
+                                background: #3B4757;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: 5px;
+                                transition: 0.2s;
+                                    &:hover{
+                                        background: #28a745;
+                                    }
+                                    .fa-tiktok{
+                                        width: 14px;
+                                        height: 14px;
+                                        color: #fff;
+                                    }
+                                    .fa-youtube{
+                                        width: 14px;
+                                        height: 14px;
+                                        color: #fff;
+                                    }   
+                                    .fa-instagram{
+                                        width: 14px;
+                                        height: 14px;
+                                        color: #fff;
+                                    }
+                                    .fa-paper-plane{
+                                        width: 14px;
+                                        height: 14px;
+                                        color: #fff;
+                                    }
+                                    .fa-comment{
+                                        width: 14px;
+                                        height: 14px;
+                                        color: #fff;
+                                    }
+                            }
+                    }
+                    // .rightinfo{
+                    //     display: flex;
+                    //         .box{
+                    //             width: 60.25px;
+                    //             height: 20px;
+                    //             display: flex;
+                    //             align-items: center;
+                    //             justify-content: center;
+                    //             border-right: 1px solid #a7abb3;
+                    //             transition: 0.2s;
+                    //             cursor: pointer;
+                    //             overflow: hidden;
+                    //                 &:hover{
+                    //                         h2{
+                    //                             color: #28a745;
+                    //                         }
+                    //                 }
+                    //                 h2{
+                    //                     font-size: 12px;
+                    //                     font-weight: 300;
+                    //                     font-family: $font-Roboto;
+                    //                     color: #ffffff;
+                    //                 }
+                    //         }
+                    // }
+            }
+            .butonInfo{
+                width: 100%;
+                height: 100px;
+                padding-left: 100px;
+                padding-right: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                // position: fixed;
+                // z-index: 100;
+                background: #ffffff;
+                // top: 50px;
+                    .logo{
+                        width: 220px;
+                        height: 73.5px;
+                        a{
+                            img{
+                                width: 220px;
+                                height: 73.5px;
+                            }
+                        }
+                    }
+                    .rightList{
+                        align-items: center;
+                        display: flex;
+                        ul{
+                            display: flex;
+                            width: auto;
+                                li{
+                                    margin-left: 20px;
+                                        a{
+                                            font-family: $font-Roboto;
+                                            color: #242c42;
+                                            font-size: 18px;
+                                            font-weight: 400;
+                                            transition: 0.3s;
+                                            line-height: 30px;
+                                            text-decoration: none;
+                                                &:hover{
+                                                    color: #28a745;
+                                                }
+                                                &:hover::after{
+                                                    width: 100%;
+                                                }
+                                                &::after{
+                                                    content: '';
+                                                    width: 0;
+                                                    height: 2px;
+                                                    display: block;
+                                                    background: #28a745;
+                                                    margin: auto;
+                                                    border-radius: 5px;
+                                                    transition: 0.3s;
+                                                }
+                                        }
+                                }
+                        }
+                        .buttom{
+                            width: 130px;
+                            height: 100px;
+                            margin-left: 20px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            background: #28a745;
+                            color: #ffffff;
+                            font-family: $font-Roboto;
+                            text-decoration: none;
+                        }
+                    }
+            }
+            .butonInfoMedia{
+                display: none;
+                // border: 2px solid red;
+            }   
+            .swiper-button-prev {
+                display: none;
+            }
+            .swiper-button-next{
+                display: none;
+            }
+            .swiper-pagination-bullet{
+                background: #28a745;
+                width: 16px;
+                height: 16px;
+            }
+            .headerButtom{
+                width: 100%;
+                height: 500px;
+                // background:  url(../../../../public/img/asosiy/banner2.jpg)no-repeat center center / cover;
+                background: url(https://t3.ftcdn.net/jpg/04/90/58/18/360_F_490581855_hJlOGEIskZjxOqOJ1vEFJNRJ4d0oHAm0.jpg)no-repeat center center / cover;
+                padding-top: 130px;
+                padding-left: 80px;
+                // margin-top: 150px;
+                    h2{
+                        font-size: 50px;
+                        color: #ffffff;
+                        font-family: $font-Roboto;
+                        font-weight: 900;
+                    }
+                    p{
+                        color: #ffffff;
+                        font-size: 28px;
+                        font-weight: 300;
+                        font-family: $font-Roboto;  
+                        margin-top: 10px;
+                    }
+                    a{
+                        width: 150px;
+                        height: 55px;
+                        background: #28a745;
+                        border-radius: 3px;
+                        display: block;
+                        margin-top: 12px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 20px;
+                        color: #ffffff;
+                        font-family: $font-Roboto;
+                        font-weight: bold;
+                        transition: 0.3s;
+                        text-decoration: none;
+                            &:hover{
+                                background: #242c42;
+                                color: #28a745;
+                            }
+                    }
+            }
+            .headerButtomm{
+                width: 100%;
+                height: 500px;
+                // background:  url(../../../../public/img/asosiy/banner1.jpg)no-repeat center center / cover;
+                background: url(https://png.pngtree.com/thumb_back/fh260/background/20220329/pngtree-islamic-background-banner-design-for-ramadan-or-eid-mubarak-image_1069501.jpg)no-repeat center center / cover;
+                padding-top: 130px;
+                padding-left: 80px;
+                // margin-top: 150px;
+                    h2{
+                        font-size: 50px;
+                        color: #ffffff;
+                        font-family: $font-Roboto;
+                        font-weight: 900;
+                    }
+                    p{
+                        color: #ffffff;
+                        font-size: 28px;
+                        font-weight: 300;
+                        font-family: $font-Roboto;  
+                        margin-top: 10px;
+                    }
+                    a{
+                        width: 150px;
+                        height: 55px;
+                        background: #28a745;
+                        border-radius: 3px;
+                        display: block;
+                        margin-top: 12px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 20px;
+                        color: #ffffff;
+                        font-family: $font-Roboto;
+                        font-weight: bold;
+                        transition: 0.3s;
+                        text-decoration: none;
+                            &:hover{
+                                background: #242c42;
+                                color: #28a745;
+                            }
+                    }
+            }
+            .headerButtommm{
+                width: 100%;
+                height: 500px;
+                background: url(https://img.freepik.com/premium-vector/islamic-ramadan-kareem-banner-background-gold-lantern-mandala-pattern-mosque-moon-abstract-luxury-islamic-elements-background_181182-19127.jpg) no-repeat center center / cover;
+                padding-top: 130px;
+                padding-left: 80px;
+                // margin-top: 150px;
+                    h2{
+                        font-size: 50px;
+                        color: #ffffff;
+                        font-family: $font-Roboto;
+                        font-weight: 900;
+                    }
+                    p{
+                        color: #ffffff;
+                        font-size: 28px;
+                        font-weight: 300;
+                        font-family: $font-Roboto;  
+                        margin-top: 10px;
+                    }
+                    a{
+                        width: 150px;
+                        height: 55px;
+                        background: #28a745;
+                        border-radius: 3px;
+                        display: block;
+                        margin-top: 12px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 20px;
+                        color: #ffffff;
+                        font-family: $font-Roboto;
+                        font-weight: bold;
+                        transition: 0.3s;
+                        text-decoration: none;
+                            &:hover{
+                                background: #242c42;
+                                color: #28a745;
+                            }
+                    }
+            }
+    }
+    .NavInfo{
+        width: 100%;
+        padding-top: 50px;
+            .topInfo{
+                width: 100%;
+                height: 150px;
+                // border: 2px solid red;
+                    h3{
+                        text-align: center;
+                        color: #28a745;
+                            .fa-stack-overflow{
+                                width: 35px;
+                                height: 35px;
+                                color: #28a745;
+                                margin-left: 5px;
+                                padding-right: 5px;
+                            }
+                    }
+                    h2{
+                        font-size: 40px;
+                        text-align: center;
+                        font-family: $font-Roboto;
+                        font-weight: 500;
+                        color: #242c42;
+                    }
+                    p{
+                        color: #242c42;
+                        text-align: center;
+                        font-size: 18px;
+                        font-family: $font-Roboto;
+                        font-weight: 400;
+                    }
+            }
+            .buutonTesos{
+                width: 100%;
+                height: 354px;
+                // border: 2px solid red;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                    .card p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #28a745;
+  overflow: hidden;
+}
+
+.card p.small {
+  font-size: 14px;
+}
+
+.go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background-color: #28a745;
+  border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+  font-family: courier, sans;
+}
+
+.card1 {
+  display: block;
+  position: relative;
+  max-width: 262px;
+  background-color: #f2f8f9;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+}
+.card1 h2{
+    text-align: center;
+    color: #28a745;
+}
+
+.card1 h2 .fa-language{
+    width: 40px;
+    height: 40px;
+}
+
+.card1:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: #28a745;
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.25s ease-out;
+}
+
+.card1:hover:before {
+  transform: scale(21);
+}
+
+.card1:hover p {
+  transition: all 0.3s ease-out;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card1:hover h2 .fa-language{
+    color: #fff;
+      transition: all 0.3s ease-out;
+}
+
+.card1:hover h2 .fa-head-side-cough{
+    color: #fff;
+      transition: all 0.3s ease-out;
+}
+
+.card1:hover h2 .fa-pen{
+    color: #fff;
+      transition: all 0.3s ease-out;
+}
+
+
+.card1:hover h3 {
+  transition: all 0.3s ease-out;
+  color: #fff;
+}
+
+.card2 {
+  display: block;
+  top: 0px;
+  position: relative;
+  max-width: 262px;
+  background-color: #f2f8f9;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  border: 1px solid #f2f8f9;
+}
+
+.card2:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  top: -4px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.card2:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: #00838d;
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  transform: scale(2);
+  transform-origin: 50% 50%;
+  transition: transform 0.15s ease-out;
+}
+
+.card2:hover:before {
+  transform: scale(2.15);
+}
+
+.card3 {
+  display: block;
+  top: 0px;
+  position: relative;
+  max-width: 262px;
+  background-color: #f2f8f9;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  overflow: hidden;
+  border: 1px solid #f2f8f9;
+}
+
+.card3 .go-corner {
+  opacity: 0.7;
+}
+
+.card3:hover {
+  border: 1px solid #00838d;
+  box-shadow: 0px 0px 999px 999px rgba(255, 255, 255, 0.5);
+  z-index: 500;
+}
+
+.card3:hover p {
+  color: #00838d;
+}
+
+.card3:hover .go-corner {
+  transition: opactiy 0.3s linear;
+  opacity: 1;
+}
+
+.card4 {
+  display: block;
+  top: 0px;
+  position: relative;
+  max-width: 262px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.card4 .go-corner {
+  background-color: #00838d;
+  height: 100%;
+  width: 16px;
+  padding-right: 9px;
+  border-radius: 0;
+  transform: skew(6deg);
+  margin-right: -36px;
+  align-items: start;
+  background-image: linear-gradient(-45deg, #8f479a 1%, #dc2a74 100%);
+}
+
+.card4 .go-arrow {
+  transform: skew(-6deg);
+  margin-left: -2px;
+  margin-top: 9px;
+  opacity: 0;
+}
+
+.card4:hover {
+  border: 1px solid #cd3d73;
+}
+
+.card4 h3 {
+  margin-top: 8px;
+}
+
+.card4:hover .go-corner {
+  margin-right: -12px;
+}
+
+.card4:hover .go-arrow {
+  opacity: 1;
+}
+            }
+    }
+    .SectionAsosiy{
+        width: 100%;
+        height: auto;
+            .buttonOneAndSectionPart{
+                width: 100%;
+                height: 600px;
+                padding-top: 50px;
+                    .topInfo{
+                        width: 100%;
+                        height: 120px;
+                        // border: 2px solid red;
+                            h3{
+                                text-align: center;
+                                color: #35c957;
+                                    .fa-quote-left{
+                                        width: 40px;
+                                        height: 35px;
+                                        margin-left: 10px;
+                                        margin-right: 10px;
+                                    }
+                            }
+                            h2{
+                                text-align: center;
+                                font-size: 40px;
+                                font-family: $font-Roboto;
+                                color: #242c42;
+                            }
+                            p{
+                                color: #242c42;
+                                text-align: center;
+                                font-family: $font-Roboto;
+                                font-size: 18px;
+                            }
+
+                    }
+            }
+    }
+    .SectionOn{
+        width: 100%;
+        height: 450px;
+        padding-top: 50px;
+        // background: url(https://grandtalim.uz/images/background-count-number.png)no-repeat center center / cover;
+        background-color: #014126;
+            .topInfo{
+                h2{
+                    text-align: center;
+                    color: #fff;
+                    font-family: $font-Roboto;
+                    font-size: 35px;
+                    text-transform: uppercase;
+                }
+            }
+            .buttonInfo{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 100px;
+                    .box{
+                        width: 150px;
+                        height: 150px;
+                            .buttonBox{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                    .counter{
+                                        font-size: 50px;
+                                        color: #fff;
+                                        font-family: $font-Roboto;
+                                        font-weight: bold;
+                                    }
+                                    span{
+                                        color: #fff;
+                                        font-size: 50px;
+                                        font-family: $font-Roboto;
+                                        font-weight: bold;
+                                    }
+                            }
+                            .line{
+                                width: 88px;
+                                height: 2px;
+                                background: #FFC938;
+                                margin: auto;
+                            }
+                            h2{
+                                text-align: center;
+                                color: #fff;
+                                font-size: 20px;
+                                font-family: $font-Roboto;
+                                font-weight: 400;
+                                margin-top: 10px;
+                            }   
+                    }
+            }
+            .buttonClick{
+                a{
+                    margin: auto;
+                    display: block;
+                    width: 150px;
+                    height: 45px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: #28a745;
+                    border-radius: 5px;
+                    color: #fff;
+                    font-family: $font-Roboto;
+                    transition: 0.2s;
+                        &:hover{
+                            background: #35c957;
+                            color: #ffffff;
+                        }
+                }
+            }
+    }
+    .SectionCorusel{
+        width: 100%;
+        height: 600px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: 100px;
+        margin: auto;
+        // border: 2px solid red;
+        .swiper-button-prev{
+            display: none;
+        }
+        .mySwiper{
+            height: 400px;
+            // border: 2px solid red;
+            width: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 30px;
+
+    .boxCorusel{
+        width: 555px;
+        height: 300px;
+        margin-top: 50px;
+        // border: 2px solid red;
+        display: flex;
+        margin: auto;
+            &:hover{
+                background: #ffffff;
+            }
+            &:hover::before{
+                height: 100%;
+                background: #242c42;
+            }
+            &::before{
+                content: '';
+                width: 4px;
+                height: 100%;
+                background: #cecece;
+                transition: 0.3s;
+            }
+            .leftInfo{
+                width: 450px;
+                height: auto;
+                background: #fafafa;
+                padding-top: 10px;
+                padding-left: 20px;
+                position: relative;
+                // border: 2px solid red;
+                    .fa-thumbtack{
+                        rotate: 50deg;
+                        position: absolute;
+                        top: -2px;
+                        left: 10px;
+                        width: 20px;
+                        height: 20px;
+                        color: #dc2a74;
+                        display: none;
+                    }
+                    h2{
+                        color: #35c957;
+                        font-size: 25px;
+                        font-family: $font-Roboto;
+                    }
+                    p{
+                        font-family: $font-Roboto;
+                        width: 230px;
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+                    a{
+                        width: 110px;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: #28a745;
+                        color: #fff;
+                        font-family: $font-Roboto;
+                        transition: 0.2s;
+                        font-size: 15px;
+                            &:hover{
+                                background: #35c957;
+                            }
+                    }
+                    img{
+                        position: absolute;
+                        top: 20px;
+                        width: 300px;
+                        height: 225px;
+                        right: -150px;
+                    }
+
+            }
+        }
+    }
+    }
+    .asideAllTasks{
+        width: 100%;
+        height: 400px;
+        background: #014126;
+        padding-top: 80px;
+        padding-left: 100px;
+        padding-right: 100px;
+            h2{
+                text-align: center;
+                color: #FCC73A;
+                font-family: $font-Roboto;
+            }
+            p{
+                color: #eeeeee;
+                text-align: center;
+                margin-top: 25px;
+                font-family: $font-Roboto;
+            }
+            a{
+                width: 160px;
+                height: 44px;
+                display: flex;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #28a745;
+                color: #fff;
+                margin-top: 20px;
+                transition: 0.3s;
+                    &:hover{
+                        background: #35c957;
+                        color: #fff;
+                    }
+            }
+    }
+    .buttonInfoCommnet{
+        width: 100%;
+        height: 450px;
+        // background: url(	https://grandtalim.uz/images/background-count-number.png)no-repeat center center / cover;
+        background: #014126;
+        padding-left: 50px;
+        padding-right: 50px;  
+        .swiper-pagination-bullet-active{
+            margin-top: 50px;
+            background: #28a745;
+        }
+            .topListOllComents{
+                h2{
+                    text-align: center;
+                    color: #FCC73A;
+                    font-family: $font-Roboto;
+                    font-size: 35px;
+                }
+            }
+            .comentInfoOrStyleOn{
+                width: 250px;
+                height: 300px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-direction: column;
+                margin-top: 50px!important;
+                background: #fff;
+                cursor: pointer;
+                transition: 0.3s;
+                border-radius: 5px;
+                margin: auto;
+                    &:hover{
+                        background: #28a745;
+                            .topInfools{
+                                background: #fff;
+                                    .fa-user{
+                                        color: #28a745;
+                                    }
+                            }
+                            .bottonInfoOll{
+                                h2{
+                                    color: #fff;
+                                    font-family: $font-Roboto;
+                                }
+                                h3{
+                                    color: #fff;
+                                    font-family: $font-Roboto;
+                                }
+                                p{
+                                    color: #fff;
+                                    font-family: $font-Roboto;
+                                }
+
+                            }
+
+                    }
+                    .topInfools{
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        background: #a7abb3;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                            .fa-user{
+                                width: 50px;
+                                height: 50px;
+                            }
+                    }
+                    .bottonInfoOll{
+                        h2{
+                            text-align: center;
+                            color: #28a745;
+                        }
+                        h3{
+                            text-align: center;
+                        }
+                        p{
+                            text-align: center;
+                        }
+                    }
+            }
+
+    }
+    .ArticleAsosiy{
+        width: 100%;
+        height: 537px;
+        background: url(../../../../public/img/asosiy/info.png);
+        margin-top: 187.07px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+            .leftInfo{
+                width: 513px;
+                height: 517px;
+                img{
+                    margin-top: -50px;
+                    width: 513px;
+                    height: 517px;
+                }
+            }
+            .rightinfo{
+                width: 568px;
+                height: 415px;
+                    h2{
+                        color: #fff;
+                        font-size: 42px;
+                        font-weight: bold;
+                        font-family: $font-Roboto;
+
+                    }
+                    p{
+                        color: #fff;
+                        font-size: 24px;
+                        font-weight: 400;
+                        margin-top: 24px;
+                        font-family: $font-Roboto;
+
+                    }
+                    .bottomInfo{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 356px;
+                        height: 60px;
+                        margin-top: 89px;
+                            button{
+                                width: 161px;
+                                height: 60px;
+                                background: #28a745;
+                                border-radius: 5px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: #fff;
+                                font-size: 16px;
+                                line-height: 20px;
+                                font-weight: bold;
+                                border: none;
+                                box-shadow: none;
+                            }
+                            a{
+                                width: 161px;
+                                height: 60px;
+                                background: #E7FAEF;
+                                border-radius: 5px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: #fff;
+                                font-size: 16px;
+                                line-height: 20px;
+                                font-weight: bold;
+                                color: #28a745;
+                                border: 2px solid #28a745;
+                            }
+                            .fade{
+                                
+                                    .modal-dialog{
+
+                                            .modal-content{
+
+                                                    .modal-header{
+
+                                                            h5{
+                                                                font-size: 25px;
+                                                                color: #242c42;
+                                                                text-align: center;
+                                                            }
+                                                            .btn-close{
+                                                                width: 25px;
+                                                                height: 25px;
+                                                                background: none;
+                                                                    .fa-xmark{
+                                                                        color: #242c42;
+                                                                        width: 20px;
+                                                                        height: 20px;
+                                                                    }
+                                                            }
+                                                    }
+                                                    .modal-body{
+                                                        
+                                                            form{
+                                                                label{
+                                                                    color: #28a745;
+                                                                    margin-top: 5px;
+                                                                    font-family: $font-Roboto;
+
+                                                                    span{
+                                                                        // color: #FCC73A;
+                                                                        color: red;
+                                                                    }
+                                                                }
+                                                                .rusus{
+                                                                    margin-left: 10px;
+                                                                }
+                                                                .radio{
+                                                                    width: 15px;
+                                                                    height: 15px;
+                                                                    margin-left: 20px;
+                                                                }
+                                                                input{
+                                                                    width: 100%;
+                                                                    height: 35px;
+                                                                    outline: none;
+                                                                    padding-left: 10px;
+                                                                    border-radius: 5px;
+                                                                    font-family: $font-Roboto;
+                                                                    font-size: 15px;
+                                                                    color: black;
+                                                                    border: 2px solid #FCC73A;
+                                                                }
+                                                                select{
+                                                                    width: 100%;
+                                                                    height: 35px;
+                                                                    outline: none;
+                                                                    padding-left: 10px;
+                                                                    border-radius: 5px;
+                                                                    font-family: $font-Roboto;
+                                                                    font-size: 15px;
+                                                                    color: black;
+                                                                    border: 2px solid #FCC73A;
+                                                                }
+                                                                textarea{
+                                                                    width: 100%;
+                                                                    outline: none;
+                                                                    padding-left: 10px;
+                                                                    border-radius: 5px;
+                                                                    font-family: $font-Roboto;
+                                                                    font-size: 15px;
+                                                                    color: black;
+                                                                    border: 2px solid #FCC73A;
+                                                                }
+                                                                .inputConverseytinBotton{
+                                                                    background: #28a745;
+                                                                    border: none;
+                                                                    color: #fff;
+                                                                }
+                                                            }
+                                                    }
+                                            }
+                                    }
+                            }
+                    }
+            }
+    }
+    .AllInfoScort{
+        width: 100%;
+        height: 784.50px;
+        // border: 2px solid red;
+        padding-left: 100px;
+        padding-top: 98px;
+        padding-bottom: 98px;
+            .paragrf{
+                h2{
+                    color: #242c42;
+                    font-family: $font-Roboto;
+                    font-size: 45px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+            }
+            .buutonInfoAllTask{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-top: 64px;
+                    .leftPart{
+                        width: 430px;
+                        height: 461.43px;
+                        position: relative;
+                        background: url(../../../../public/img/asosiy/imgJSa.jpg)no-repeat center center / cover;
+                        border-radius: 35px;
+                            // img{
+                            //     width: 100%;
+                            //     height: 100%;
+                            //     border-radius: 35px;
+                            // }
+                            .boxExs{
+                                width: 120px;
+                                height: 146px;
+                                border-radius: 6.86px;
+                                background: #fff;
+                                box-shadow: 5px 0 20px 1px #f3f3f3;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-around;
+                                flex-direction: column;
+                                position: absolute;
+                                top: 213px;
+                                right: -25px;
+                                display: none;
+                                    .butINd{
+                                        width: 111px;
+                                        height: 57px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                        flex-direction: column;
+                                            h2{
+                                                font-size: 24px;
+                                                font-family: $font-Roboto;
+                                                color: #28a745;
+                                            }
+                                            img{
+                                                margin-top: -8px;
+                                            }
+                                            p{
+                                                color: #242c42;
+                                                font-size: 16px;
+                                                font-weight: bold;
+                                            }
+                                        }
+                            }
+                    }
+                    .rightPart{
+                        width: 599px;
+                        height: 464px;
+                        // border: 2px solid red;
+                        padding-left: 70px;
+                        text-transform: uppercase;
+                            h2{
+                                color: #242c42;
+                                font-family: $font-Roboto;
+                                font-size: 35px;
+                                font-weight: bold;
+                            }
+                            .boxOne{
+                                width: 100%;
+                                // border: 2px solid red;
+                                display: flex;
+                                align-items: center;
+                                margin-top: 32px;
+                                    h3{
+                                        color: #242c42;
+                                        font-weight: 500;
+                                        font-family: $font-Roboto;
+                                        font-size: 20px;
+                                        text-transform: none;
+                                        margin-left: 24px;
+                                    }
+                            }
+                    }
+            }
+    }
+    .topInfoAllBx{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        padding-left: 80px;
+        padding-right: 80px;
+        justify-content: space-between;
+        background-color: #28a745;
+            .leftBoxAllpart{
+                width: auto;
+                height: auto;
+                    h2{
+                        font-size: 30px;
+                        font-family: $font-Roboto;
+                        color: #fff;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                    }
+                    p{
+                        color: #fff;
+                        font-size: 16px;
+                        font-weight: 300;
+                        margin-top: -10px;
+                    }
+            }
+            .rightBoxAllpart{
+                width: 140.3px;
+                height: 40px;
+                    a{
+                        width: 140.3px;
+                        height: 40px;
+                        background: #242c42;
+                        display: block;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 14px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        color: #fff;
+                        transition: 0.3s;
+                            &:hover{
+                                background: #FCC73A;
+                                border: 2px solid #28a745;
+                                color: #28a745;
+                            }
+                    }
+            }
+    }
+    .butonAllTas{
+        width: 100%;
+        height: 500px;
+        background: #014126;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+            .leftInfo{
+                width: 300px;
+                height: auto;
+                // border: 2px solid red;
+                    h2{
+                        font-size: 16px;
+                        color: #FCC73A;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                    }
+                    p{
+                        color: #fff;
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-family: $font-Roboto;
+                        margin-top: 30px;
+                    }
+                    .buttonInfo{
+                        width: 100%;
+                        height: auto;
+                        margin-top: 20px;
+                            a{
+                                color: #fff;
+                                font-family: $font-Roboto;
+                                font-weight: 400;
+                                font-size: 14px;
+                                transition: 0.2s;
+                                    &:hover{
+                                        color: #28a745;
+                                        .fa-envelope{
+                                            color: #fff;
+                                            width: 14px;
+                                            height: 14px;
+                                            margin-right: 10px;
+                                        }
+                                        .fa-phone{
+                                            color: #fff;
+                                            width: 14px;
+                                            height: 14px;
+                                            margin-right: 10px;
+    
+                                        }
+                                        .fa-location-dot{
+                                            color: #fff;
+                                            width: 14px;
+                                            height: 14px;
+                                            margin-right: 10px;
+                                        }
+                                    }
+                                    .fa-envelope{
+                                        // color: #28a745;
+                                        width: 14px;
+                                        height: 14px;
+                                        margin-right: 10px;
+                                    }
+                                    .fa-phone{
+                                        // color: #28a745;
+                                        width: 14px;
+                                        height: 14px;
+                                        margin-right: 10px;
+
+                                    }
+                                    .fa-location-dot{
+                                        // color: #28a745;
+                                        width: 14px;
+                                        height: 14px;
+                                        margin-right: 10px;
+                                    }
+                            }
+                    }
+            }
+            .centerInfo{
+                width: 262.5px;
+                height: auto;
+                padding: 0;
+                // border: 2px solid red;
+                    h2{
+                        color: #FCC73A;
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-family: $font-Roboto;
+                    }
+                    .butonOn{
+                        display: flex;
+                        padding: 0;
+                        // border: 2px solid red;
+                        margin-top: 20px;
+                            .leftListt{
+                                padding: 0;
+                                        li{
+                                            margin-top: 12px;
+                                            a{
+                                                color: #fff;
+                                                font-size: 14px;
+                                                transition: 0.2s;
+                                                    &:hover{
+                                                        color: #28a745;
+                                                            .fa-chevron-right{
+                                                                rotate: 90deg;
+                                                            }
+                                                    }
+                                                    .fa-chevron-right{
+                                                        color: #28a745;
+                                                        width: 14px;
+                                                        height: 14px;
+                                                        transition: 0.5s;
+                                                    }  
+                                            }
+                                        }
+                            }
+                            .rightList{
+                                padding: 0;
+                                margin-left: 15px;
+                                        li{
+                                            margin-top: 12px;
+                                            a{
+                                                color: #fff;
+                                                font-size: 14px;
+                                                transition: 0.2s;
+                                                    &:hover{
+                                                        color: #28a745;
+                                                            .fa-chevron-right{
+                                                                rotate: 90deg;
+                                                            }
+                                                    }
+                                                    .fa-chevron-right{
+                                                        color: #28a745;
+                                                        width: 14px;
+                                                        height: 14px;
+                                                        transition: 0.5s;
+                                                    }  
+                                            }
+                                        }
+                            }
+                    }
+            }
+            .rightAllInfoAs{
+                width: 262.5px;
+                height: auto;
+                margin-top: -100px;
+                    h2{
+                        font-size: 16px;
+                        color: #FCC73A;
+                        font-weight: bold;
+                        font-family: $font-Roboto;
+                    }
+                    h3{
+                        color: #fff;
+                        font-size: 14px;
+                        font-family: $font-Roboto;
+                        margin-top: 30px;
+                    }
+                    h4{
+                        color: #fff;
+                        font-size: 14px;
+                        font-family: $font-Roboto;
+                        margin-top: 20px;
+                    }
+                    .icon_one_box{
+                        width: 100%;
+                        // border: 2px solid red;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-top: 20px;
+                            a{
+                                width: 30px;
+                                height: 30px;
+                                background: #28a745;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: 5px;
+                                transition: 0.2s;
+                                    &:hover{
+                                        background: #62d87e;
+                                    }
+                                    .fa-tiktok{
+                                        width: 14px;
+                                        height: 14px;
+                                        color: #fff;
+                                    }
+                                    .fa-youtube{
+                                        width: 14px;
+                                        height: 14px;
+                                        color: #fff;
+                                    }   
+                                    .fa-instagram{
+                                        width: 14px;
+                                        height: 14px;
+                                        color: #fff;
+                                    }
+                                    .fa-paper-plane{
+                                        width: 14px;
+                                        height: 14px;
+                                        color: #fff;
+                                    }
+                                    .fa-comment{
+                                        width: 14px;
+                                        height: 14px;
+                                        color: #fff;
+                                    }
+                            }
+                    }
+            }
+    }
+    .fuutwe{
+            width: 100%;
+            height: 60px;
+            // border: 2px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #014126;
+            border-top: 2px solid #28a745;
+            padding-right: 50px;
+                .leftInfo{
+                    ul{
+                        display: flex;
+                        width: auto;
+                        height: auto;
+                        align-items: center;
+                            li{
+                                margin-left: 10px;
+                                a{
+                                    font-size: 12px;
+                                    color: rgba(160, 160, 160, 0.8);
+                                    transition: 0.2s;    
+                                        &:hover{
+                                            color: #28a745;
+                                        }     
+                                }
+                            }
+                    }
+                }
+                .rightInfo{
+                    // border: 2px solid red;
+                    display: block;
+                    width: 200px;
+                    height: auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                        a:nth-child(1){
+                            color: rgba(160, 160, 160, 0.8);
+                            font-family: $font-Roboto;
+                            font-size: 12px;
+                            display: block;
+                            // border: 2px solid red;
+                                .fa-code{
+                                    color: #cd3d73;
+                                    margin-left: 2px;
+                                    margin-right: 2px;
+                                }
+                        }
+                        a:nth-child(2){
+                            width: 40px;
+                            height: 40px;
+                            // border: 2px solid red;
+                            display: block;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 2px solid #28a745;
+                            border-radius: 5px;
+                            transition: 0.3s;
+                                &:hover{
+                                    background: #28a745;
+                                    color: #fff;
+                                        .fa-bounce{
+                                            color: #fff;
+                                        }
+                                }
+                                .fa-bounce{
+                                    color: #28a745;
+                                }
+                        }
+                }
+        }
+    
+}
+
+// web site obilni part or responsive;
+
+@media (max-width: 700px) {
+    .AsosiyPage{
+        width: 100%;
+        height: auto;
+            .topinfo{
+                display: none;
+            }
+            .butonInfo{
+                display: none;
+            }
+            .butonInfoMedia{
+                display: block;
+                width: 100%;
+                height: 61.2667px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-left: 20px;
+                padding-right: 20px;
+                position: fixed;
+                background-color: #fff;
+                z-index: 20;
+                box-shadow: 0 0 10px 2px #969696;
+                    .logo{
+                        width: 125px;
+                        height: 41.7667px;
+                            a{
+                                img{
+                                    width: 125px;
+                                    height: 41.7667px;
+                                }
+                            }
+                    }
+                    button{
+                        background: #28a745;
+                        border: none;
+                        outline: none;
+                        box-shadow: none;
+                        width: 50px;
+                        height: 44px;
+                            .fa-bars{
+                                width: 23px;
+                                height: 23px;
+                            }
+                    }
+                    .offcanvas{
+                        width: 100%;
+                        height: auto;
+                        // background: url(../../../../public/img/asosiy/one1.jpg)no-repeat center center/ cover;
+                            background: #242c42;
+                            .offcanvas-header{
+                                border-bottom: 2px solid #28a745;
+                                button{
+                                    background: none;
+                                }
+                                .text-reset{
+                                    background: #28a745;
+                                    border: none;
+                                    outline: none;
+                                    box-shadow: none;
+                                    width: 50px;
+                                    height: 44px;
+                                        .fa-xmark{
+                                            width: 23px;
+                                            height: 23px;
+                                            color: #ffffff;
+                                        }
+                                }
+                            }
+                            .offcanvas-body{
+                                ul{
+                                    li{
+                                        a{
+                                            color: #ffffff;
+                                            font-size: 20px;
+                                        }
+                                    }
+                                }
+                            }
+                    }
+            }
+            .headerButtom{
+                padding: 40px;
+                padding-left: 20px;
+                margin-top: 50px;
+                // background: url(../../../../public/img/asosiy/mediaBannar2.jpg) no-repeat center center / cover;
+                background: url(https://png.pngtree.com/thumb_back/fh260/background/20220329/pngtree-islamic-background-banner-design-for-ramadan-or-eid-mubarak-image_1069501.jpg)no-repeat center center / cover;
+                h2{
+                    font-size: 50px;
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+                a{
+                    margin: auto;
+                }
+            }
+            .headerButtomm{
+                padding: 40px;
+                padding-left: 20px;
+                // background: url(../../../../public/img/asosiy/mediaBannar3.jpg) no-repeat center center / cover;
+                background: url(https://t3.ftcdn.net/jpg/04/90/58/18/360_F_490581855_hJlOGEIskZjxOqOJ1vEFJNRJ4d0oHAm0.jpg)no-repeat center center / cover;
+                margin-top: 50px;
+                h2{
+                    font-size: 50px;
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+                a{
+                    margin: auto;
+                }
+            }
+            .headerButtommm{
+                padding: 40px;
+                padding-left: 20px;
+                // background: url(../../../../public/img/asosiy/mediaBannar1.jpg)no-repeat center center / cover;
+                background: url(https://img.freepik.com/premium-vector/islamic-ramadan-kareem-banner-background-gold-lantern-mandala-pattern-mosque-moon-abstract-luxury-islamic-elements-background_181182-19127.jpg) no-repeat center center / cover;
+                margin-top: 50px;
+                h2{
+                    font-size: 50px;
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+                a{
+                    margin: auto;
+                }
+            }
+    }
+    .NavInfo{
+        width: 100%;
+        height: auto;
+            .buutonTesos{
+                width: 100%;
+                height: auto;
+                margin-top: 20px;
+                    .card{
+                        width: 250px;
+                        height: 350px;
+                        border: none;
+                    }
+            }
+    }
+    .SectionAsosiy{
+        width: 100%;
+        height: auto;
+            .buttonOneAndSectionPart{
+                width: 100%;
+                height: auto;
+            }
+    }
+    .SectionOn{
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+            .buttonInfo{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+    }
+    .SectionCorusel{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+            .mySwiper{
+                height: 600px;
+                position: relative;
+            }
+            .boxCorusel{
+                height: 600px;
+                    .leftInfo{
+                        height: 600px;
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+
+                        img{
+                            width: 280px;
+                            height: 202.5px;
+                            // position: absolute;
+                            // left: 50px;
+                            margin-top: 260px;
+                            margin-right: 280px;
+                        }
+                    }
+            }
+    }
+    .asideAllTasks{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .buttonInfoCommnet{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .ArticleAsosiy{
+        width: 100%;
+        height: auto;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 69px;
+        padding-bottom: 70px;
+        margin-top: -10px;
+        // background: url(../../../../public/img/asosiy/media_info.png)no-repeat center center / cover;
+            .leftInfo{
+                display: none;
+            }
+            .rightinfo{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                    h2{
+                        font-size: 24px;
+                        text-align: center;
+                    }
+                    p{
+                        font-size: 16px;
+                        text-align: center;
+                    }
+            }
+    }
+    .AllInfoScort{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+            .paragrf{
+                h2{
+                    font-size: 24px;
+                    text-align: center;
+                }
+            }
+            .buutonInfoAllTask{
+                display: flex;
+                align-items: start;
+                justify-content: start;
+                flex-wrap: wrap;
+                    .leftPart{
+                        width: 100%;
+                        height: 400px;
+                        padding: 20px;
+                        position: relative;
+                        background: url(../../../../public/img/asosiy/imgJSa.jpg)no-repeat center center / cover;
+                        border-radius: 35px;
+                            .boxExs{
+                                width: 112.8px;
+                                height: 127.67px;
+                                position: absolute;
+                                display: none;
+                                top: 250px;
+                                left: 50px;
+                                    img{
+                                        width: 35.85px;
+                                        height: 35.85px;
+                                    }
+                            }
+                    }
+                    .rightPart{
+                        width: 100%;
+                        height: auto;
+                        padding: 20px;
+                            h2{
+                                font-size: 24px;
+                            }
+                            .boxOne{
+                                width: 100%;
+                                height: auto;
+                                    h3{
+                                        font-size: 14px;
+                                    }
+                            }
+
+                    }
+            }
+    }
+    .topInfoAllBx{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .butonAllTas{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: start;
+        padding: 20px;
+            .leftInfo{
+                width: 100%;
+                height: auto;
+            }
+            .centerInfo{
+                width: 100%;
+                height: auto;
+                margin-top: 20px;
+            }
+            .rightAllInfoAs{
+                width: 100%;
+                height: auto;
+                margin: 0;
+            }
+    }
+    .fuutwe{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+            .leftInfo{
+                ul{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                }
+            }
+            .rightInfo{
+                margin-left: auto;
+            }
+    }
+
+}
+
+
+

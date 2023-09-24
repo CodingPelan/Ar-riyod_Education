@@ -1,0 +1,1714 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+@media (max-width: 1920px) {
+  .AsosiyPage {
+    width: 100%;
+    overflow: hidden;
+  }
+  .AsosiyPage .topinfo {
+    width: 100%;
+    height: 52px;
+    background: #242c42;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .AsosiyPage .topinfo .leftInfo a:nth-child(1) {
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    transition: 0.2s;
+  }
+  .AsosiyPage .topinfo .leftInfo a:nth-child(1):hover {
+    color: #28a745;
+  }
+  .AsosiyPage .topinfo .leftInfo a:nth-child(1) .fa-envelope {
+    width: 16px;
+    height: 16px;
+    color: #28a745;
+    margin-right: 5px;
+  }
+  .AsosiyPage .topinfo .leftInfo a:nth-child(2) {
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    transition: 0.2s;
+    margin-left: 15px;
+  }
+  .AsosiyPage .topinfo .leftInfo a:nth-child(2):hover {
+    color: #28a745;
+  }
+  .AsosiyPage .topinfo .leftInfo a:nth-child(2) .fa-phone {
+    width: 16px;
+    height: 16px;
+    color: #28a745;
+    margin-right: 5px;
+  }
+  .AsosiyPage .topinfo .icon_one_box {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+  }
+  .AsosiyPage .topinfo .icon_one_box a {
+    width: 30px;
+    height: 30px;
+    background: #3B4757;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: 0.2s;
+  }
+  .AsosiyPage .topinfo .icon_one_box a:hover {
+    background: #28a745;
+  }
+  .AsosiyPage .topinfo .icon_one_box a .fa-tiktok {
+    width: 14px;
+    height: 14px;
+    color: #fff;
+  }
+  .AsosiyPage .topinfo .icon_one_box a .fa-youtube {
+    width: 14px;
+    height: 14px;
+    color: #fff;
+  }
+  .AsosiyPage .topinfo .icon_one_box a .fa-instagram {
+    width: 14px;
+    height: 14px;
+    color: #fff;
+  }
+  .AsosiyPage .topinfo .icon_one_box a .fa-paper-plane {
+    width: 14px;
+    height: 14px;
+    color: #fff;
+  }
+  .AsosiyPage .topinfo .icon_one_box a .fa-comment {
+    width: 14px;
+    height: 14px;
+    color: #fff;
+  }
+  .AsosiyPage .butonInfo {
+    width: 100%;
+    height: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+  }
+  .AsosiyPage .butonInfo .logo {
+    width: 220px;
+    height: 73.5px;
+  }
+  .AsosiyPage .butonInfo .logo a img {
+    width: 220px;
+    height: 73.5px;
+  }
+  .AsosiyPage .butonInfo .rightList {
+    align-items: center;
+    display: flex;
+  }
+  .AsosiyPage .butonInfo .rightList ul {
+    display: flex;
+    width: auto;
+  }
+  .AsosiyPage .butonInfo .rightList ul li {
+    margin-left: 20px;
+  }
+  .AsosiyPage .butonInfo .rightList ul li a {
+    font-family: "Roboto", sans-serif;
+    color: #242c42;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.3s;
+    line-height: 30px;
+    text-decoration: none;
+  }
+  .AsosiyPage .butonInfo .rightList ul li a:hover {
+    color: #28a745;
+  }
+  .AsosiyPage .butonInfo .rightList ul li a:hover::after {
+    width: 100%;
+  }
+  .AsosiyPage .butonInfo .rightList ul li a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    background: #28a745;
+    margin: auto;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .AsosiyPage .butonInfo .rightList .buttom {
+    width: 130px;
+    height: 100px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #28a745;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+  }
+  .AsosiyPage .butonInfoMedia {
+    display: none;
+  }
+  .AsosiyPage .swiper-button-prev {
+    display: none;
+  }
+  .AsosiyPage .swiper-button-next {
+    display: none;
+  }
+  .AsosiyPage .swiper-pagination-bullet {
+    background: #28a745;
+    width: 16px;
+    height: 16px;
+  }
+  .AsosiyPage .headerButtom {
+    width: 100%;
+    height: 500px;
+    background: url(https://t3.ftcdn.net/jpg/04/90/58/18/360_F_490581855_hJlOGEIskZjxOqOJ1vEFJNRJ4d0oHAm0.jpg) no-repeat center center/cover;
+    padding-top: 130px;
+    padding-left: 80px;
+  }
+  .AsosiyPage .headerButtom h2 {
+    font-size: 50px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+  }
+  .AsosiyPage .headerButtom p {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+  }
+  .AsosiyPage .headerButtom a {
+    width: 150px;
+    height: 55px;
+    background: #28a745;
+    border-radius: 3px;
+    display: block;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  .AsosiyPage .headerButtom a:hover {
+    background: #242c42;
+    color: #28a745;
+  }
+  .AsosiyPage .headerButtomm {
+    width: 100%;
+    height: 500px;
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20220329/pngtree-islamic-background-banner-design-for-ramadan-or-eid-mubarak-image_1069501.jpg) no-repeat center center/cover;
+    padding-top: 130px;
+    padding-left: 80px;
+  }
+  .AsosiyPage .headerButtomm h2 {
+    font-size: 50px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+  }
+  .AsosiyPage .headerButtomm p {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+  }
+  .AsosiyPage .headerButtomm a {
+    width: 150px;
+    height: 55px;
+    background: #28a745;
+    border-radius: 3px;
+    display: block;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  .AsosiyPage .headerButtomm a:hover {
+    background: #242c42;
+    color: #28a745;
+  }
+  .AsosiyPage .headerButtommm {
+    width: 100%;
+    height: 500px;
+    background: url(https://img.freepik.com/premium-vector/islamic-ramadan-kareem-banner-background-gold-lantern-mandala-pattern-mosque-moon-abstract-luxury-islamic-elements-background_181182-19127.jpg) no-repeat center center/cover;
+    padding-top: 130px;
+    padding-left: 80px;
+  }
+  .AsosiyPage .headerButtommm h2 {
+    font-size: 50px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+  }
+  .AsosiyPage .headerButtommm p {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+  }
+  .AsosiyPage .headerButtommm a {
+    width: 150px;
+    height: 55px;
+    background: #28a745;
+    border-radius: 3px;
+    display: block;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  .AsosiyPage .headerButtommm a:hover {
+    background: #242c42;
+    color: #28a745;
+  }
+  .NavInfo {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .NavInfo .topInfo {
+    width: 100%;
+    height: 150px;
+  }
+  .NavInfo .topInfo h3 {
+    text-align: center;
+    color: #28a745;
+  }
+  .NavInfo .topInfo h3 .fa-stack-overflow {
+    width: 35px;
+    height: 35px;
+    color: #28a745;
+    margin-left: 5px;
+    padding-right: 5px;
+  }
+  .NavInfo .topInfo h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #242c42;
+  }
+  .NavInfo .topInfo p {
+    color: #242c42;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+  .NavInfo .buutonTesos {
+    width: 100%;
+    height: 354px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .NavInfo .buutonTesos .card p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #28a745;
+    overflow: hidden;
+  }
+  .NavInfo .buutonTesos .card p.small {
+    font-size: 14px;
+  }
+  .NavInfo .buutonTesos .go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background-color: #28a745;
+    border-radius: 0 4px 0 32px;
+  }
+  .NavInfo .buutonTesos .go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+  }
+  .NavInfo .buutonTesos .card1 {
+    display: block;
+    position: relative;
+    max-width: 262px;
+    background-color: #f2f8f9;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+  }
+  .NavInfo .buutonTesos .card1 h2 {
+    text-align: center;
+    color: #28a745;
+  }
+  .NavInfo .buutonTesos .card1 h2 .fa-language {
+    width: 40px;
+    height: 40px;
+  }
+  .NavInfo .buutonTesos .card1:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #28a745;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+  }
+  .NavInfo .buutonTesos .card1:hover:before {
+    transform: scale(21);
+  }
+  .NavInfo .buutonTesos .card1:hover p {
+    transition: all 0.3s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .NavInfo .buutonTesos .card1:hover h2 .fa-language {
+    color: #fff;
+    transition: all 0.3s ease-out;
+  }
+  .NavInfo .buutonTesos .card1:hover h2 .fa-head-side-cough {
+    color: #fff;
+    transition: all 0.3s ease-out;
+  }
+  .NavInfo .buutonTesos .card1:hover h2 .fa-pen {
+    color: #fff;
+    transition: all 0.3s ease-out;
+  }
+  .NavInfo .buutonTesos .card1:hover h3 {
+    transition: all 0.3s ease-out;
+    color: #fff;
+  }
+  .NavInfo .buutonTesos .card2 {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 262px;
+    background-color: #f2f8f9;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+  }
+  .NavInfo .buutonTesos .card2:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #ccc;
+    background-color: white;
+  }
+  .NavInfo .buutonTesos .card2:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #00838d;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+  }
+  .NavInfo .buutonTesos .card2:hover:before {
+    transform: scale(2.15);
+  }
+  .NavInfo .buutonTesos .card3 {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 262px;
+    background-color: #f2f8f9;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+  }
+  .NavInfo .buutonTesos .card3 .go-corner {
+    opacity: 0.7;
+  }
+  .NavInfo .buutonTesos .card3:hover {
+    border: 1px solid #00838d;
+    box-shadow: 0px 0px 999px 999px rgba(255, 255, 255, 0.5);
+    z-index: 500;
+  }
+  .NavInfo .buutonTesos .card3:hover p {
+    color: #00838d;
+  }
+  .NavInfo .buutonTesos .card3:hover .go-corner {
+    transition: opactiy 0.3s linear;
+    opacity: 1;
+  }
+  .NavInfo .buutonTesos .card4 {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 262px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+  .NavInfo .buutonTesos .card4 .go-corner {
+    background-color: #00838d;
+    height: 100%;
+    width: 16px;
+    padding-right: 9px;
+    border-radius: 0;
+    transform: skew(6deg);
+    margin-right: -36px;
+    align-items: start;
+    background-image: linear-gradient(-45deg, #8f479a 1%, #dc2a74 100%);
+  }
+  .NavInfo .buutonTesos .card4 .go-arrow {
+    transform: skew(-6deg);
+    margin-left: -2px;
+    margin-top: 9px;
+    opacity: 0;
+  }
+  .NavInfo .buutonTesos .card4:hover {
+    border: 1px solid #cd3d73;
+  }
+  .NavInfo .buutonTesos .card4 h3 {
+    margin-top: 8px;
+  }
+  .NavInfo .buutonTesos .card4:hover .go-corner {
+    margin-right: -12px;
+  }
+  .NavInfo .buutonTesos .card4:hover .go-arrow {
+    opacity: 1;
+  }
+  .SectionAsosiy {
+    width: 100%;
+    height: auto;
+  }
+  .SectionAsosiy .buttonOneAndSectionPart {
+    width: 100%;
+    height: 600px;
+    padding-top: 50px;
+  }
+  .SectionAsosiy .buttonOneAndSectionPart .topInfo {
+    width: 100%;
+    height: 120px;
+  }
+  .SectionAsosiy .buttonOneAndSectionPart .topInfo h3 {
+    text-align: center;
+    color: #35c957;
+  }
+  .SectionAsosiy .buttonOneAndSectionPart .topInfo h3 .fa-quote-left {
+    width: 40px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .SectionAsosiy .buttonOneAndSectionPart .topInfo h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    color: #242c42;
+  }
+  .SectionAsosiy .buttonOneAndSectionPart .topInfo p {
+    color: #242c42;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+  }
+  .SectionOn {
+    width: 100%;
+    height: 450px;
+    padding-top: 50px;
+    background-color: #014126;
+  }
+  .SectionOn .topInfo h2 {
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+  }
+  .SectionOn .buttonInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  .SectionOn .buttonInfo .box {
+    width: 150px;
+    height: 150px;
+  }
+  .SectionOn .buttonInfo .box .buttonBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .SectionOn .buttonInfo .box .buttonBox .counter {
+    font-size: 50px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  }
+  .SectionOn .buttonInfo .box .buttonBox span {
+    color: #fff;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  }
+  .SectionOn .buttonInfo .box .line {
+    width: 88px;
+    height: 2px;
+    background: #FFC938;
+    margin: auto;
+  }
+  .SectionOn .buttonInfo .box h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  .SectionOn .buttonClick a {
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #28a745;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    transition: 0.2s;
+  }
+  .SectionOn .buttonClick a:hover {
+    background: #35c957;
+    color: #ffffff;
+  }
+  .SectionCorusel {
+    width: 100%;
+    height: 600px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100px;
+    margin: auto;
+  }
+  .SectionCorusel .swiper-button-prev {
+    display: none;
+  }
+  .SectionCorusel .mySwiper {
+    height: 400px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .SectionCorusel .mySwiper .boxCorusel {
+    width: 555px;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    margin: auto;
+  }
+  .SectionCorusel .mySwiper .boxCorusel:hover {
+    background: #ffffff;
+  }
+  .SectionCorusel .mySwiper .boxCorusel:hover::before {
+    height: 100%;
+    background: #242c42;
+  }
+  .SectionCorusel .mySwiper .boxCorusel::before {
+    content: "";
+    width: 4px;
+    height: 100%;
+    background: #cecece;
+    transition: 0.3s;
+  }
+  .SectionCorusel .mySwiper .boxCorusel .leftInfo {
+    width: 450px;
+    height: auto;
+    background: #fafafa;
+    padding-top: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  .SectionCorusel .mySwiper .boxCorusel .leftInfo .fa-thumbtack {
+    rotate: 50deg;
+    position: absolute;
+    top: -2px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    color: #dc2a74;
+    display: none;
+  }
+  .SectionCorusel .mySwiper .boxCorusel .leftInfo h2 {
+    color: #35c957;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+  }
+  .SectionCorusel .mySwiper .boxCorusel .leftInfo p {
+    font-family: "Roboto", sans-serif;
+    width: 230px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .SectionCorusel .mySwiper .boxCorusel .leftInfo a {
+    width: 110px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #28a745;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    transition: 0.2s;
+    font-size: 15px;
+  }
+  .SectionCorusel .mySwiper .boxCorusel .leftInfo a:hover {
+    background: #35c957;
+  }
+  .SectionCorusel .mySwiper .boxCorusel .leftInfo img {
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 225px;
+    right: -150px;
+  }
+  .asideAllTasks {
+    width: 100%;
+    height: 400px;
+    background: #014126;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .asideAllTasks h2 {
+    text-align: center;
+    color: #FCC73A;
+    font-family: "Roboto", sans-serif;
+  }
+  .asideAllTasks p {
+    color: #eeeeee;
+    text-align: center;
+    margin-top: 25px;
+    font-family: "Roboto", sans-serif;
+  }
+  .asideAllTasks a {
+    width: 160px;
+    height: 44px;
+    display: flex;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #28a745;
+    color: #fff;
+    margin-top: 20px;
+    transition: 0.3s;
+  }
+  .asideAllTasks a:hover {
+    background: #35c957;
+    color: #fff;
+  }
+  .buttonInfoCommnet {
+    width: 100%;
+    height: 450px;
+    background: #014126;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .buttonInfoCommnet .swiper-pagination-bullet-active {
+    margin-top: 50px;
+    background: #28a745;
+  }
+  .buttonInfoCommnet .topListOllComents h2 {
+    text-align: center;
+    color: #FCC73A;
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+  }
+  .buttonInfoCommnet .comentInfoOrStyleOn {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 50px !important;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: auto;
+  }
+  .buttonInfoCommnet .comentInfoOrStyleOn:hover {
+    background: #28a745;
+  }
+  .buttonInfoCommnet .comentInfoOrStyleOn:hover .topInfools {
+    background: #fff;
+  }
+  .buttonInfoCommnet .comentInfoOrStyleOn:hover .topInfools .fa-user {
+    color: #28a745;
+  }
+  .buttonInfoCommnet .comentInfoOrStyleOn:hover .bottonInfoOll h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+  }
+  .buttonInfoCommnet .comentInfoOrStyleOn:hover .bottonInfoOll h3 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+  }
+  .buttonInfoCommnet .comentInfoOrStyleOn:hover .bottonInfoOll p {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+  }
+  .buttonInfoCommnet .comentInfoOrStyleOn .topInfools {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #a7abb3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttonInfoCommnet .comentInfoOrStyleOn .topInfools .fa-user {
+    width: 50px;
+    height: 50px;
+  }
+  .buttonInfoCommnet .comentInfoOrStyleOn .bottonInfoOll h2 {
+    text-align: center;
+    color: #28a745;
+  }
+  .buttonInfoCommnet .comentInfoOrStyleOn .bottonInfoOll h3 {
+    text-align: center;
+  }
+  .buttonInfoCommnet .comentInfoOrStyleOn .bottonInfoOll p {
+    text-align: center;
+  }
+  .ArticleAsosiy {
+    width: 100%;
+    height: 537px;
+    background: url(../../../../public/img/asosiy/info.png);
+    margin-top: 187.07px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .ArticleAsosiy .leftInfo {
+    width: 513px;
+    height: 517px;
+  }
+  .ArticleAsosiy .leftInfo img {
+    margin-top: -50px;
+    width: 513px;
+    height: 517px;
+  }
+  .ArticleAsosiy .rightinfo {
+    width: 568px;
+    height: 415px;
+  }
+  .ArticleAsosiy .rightinfo h2 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+  }
+  .ArticleAsosiy .rightinfo p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 24px;
+    font-family: "Roboto", sans-serif;
+  }
+  .ArticleAsosiy .rightinfo .bottomInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 356px;
+    height: 60px;
+    margin-top: 89px;
+  }
+  .ArticleAsosiy .rightinfo .bottomInfo button {
+    width: 161px;
+    height: 60px;
+    background: #28a745;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    border: none;
+    box-shadow: none;
+  }
+  .ArticleAsosiy .rightinfo .bottomInfo a {
+    width: 161px;
+    height: 60px;
+    background: #E7FAEF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #28a745;
+    border: 2px solid #28a745;
+  }
+  .ArticleAsosiy .rightinfo .bottomInfo .fade .modal-dialog .modal-content .modal-header h5 {
+    font-size: 25px;
+    color: #242c42;
+    text-align: center;
+  }
+  .ArticleAsosiy .rightinfo .bottomInfo .fade .modal-dialog .modal-content .modal-header .btn-close {
+    width: 25px;
+    height: 25px;
+    background: none;
+  }
+  .ArticleAsosiy .rightinfo .bottomInfo .fade .modal-dialog .modal-content .modal-header .btn-close .fa-xmark {
+    color: #242c42;
+    width: 20px;
+    height: 20px;
+  }
+  .ArticleAsosiy .rightinfo .bottomInfo .fade .modal-dialog .modal-content .modal-body form label {
+    color: #28a745;
+    margin-top: 5px;
+    font-family: "Roboto", sans-serif;
+  }
+  .ArticleAsosiy .rightinfo .bottomInfo .fade .modal-dialog .modal-content .modal-body form label span {
+    color: red;
+  }
+  .ArticleAsosiy .rightinfo .bottomInfo .fade .modal-dialog .modal-content .modal-body form .rusus {
+    margin-left: 10px;
+  }
+  .ArticleAsosiy .rightinfo .bottomInfo .fade .modal-dialog .modal-content .modal-body form .radio {
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+  }
+  .ArticleAsosiy .rightinfo .bottomInfo .fade .modal-dialog .modal-content .modal-body form input {
+    width: 100%;
+    height: 35px;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: black;
+    border: 2px solid #FCC73A;
+  }
+  .ArticleAsosiy .rightinfo .bottomInfo .fade .modal-dialog .modal-content .modal-body form select {
+    width: 100%;
+    height: 35px;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: black;
+    border: 2px solid #FCC73A;
+  }
+  .ArticleAsosiy .rightinfo .bottomInfo .fade .modal-dialog .modal-content .modal-body form textarea {
+    width: 100%;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: black;
+    border: 2px solid #FCC73A;
+  }
+  .ArticleAsosiy .rightinfo .bottomInfo .fade .modal-dialog .modal-content .modal-body form .inputConverseytinBotton {
+    background: #28a745;
+    border: none;
+    color: #fff;
+  }
+  .AllInfoScort {
+    width: 100%;
+    height: 784.5px;
+    padding-left: 100px;
+    padding-top: 98px;
+    padding-bottom: 98px;
+  }
+  .AllInfoScort .paragrf h2 {
+    color: #242c42;
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .AllInfoScort .buutonInfoAllTask {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 64px;
+  }
+  .AllInfoScort .buutonInfoAllTask .leftPart {
+    width: 430px;
+    height: 461.43px;
+    position: relative;
+    background: url(../../../../public/img/asosiy/imgJSa.jpg) no-repeat center center/cover;
+    border-radius: 35px;
+  }
+  .AllInfoScort .buutonInfoAllTask .leftPart .boxExs {
+    width: 120px;
+    height: 146px;
+    border-radius: 6.86px;
+    background: #fff;
+    box-shadow: 5px 0 20px 1px #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    top: 213px;
+    right: -25px;
+    display: none;
+  }
+  .AllInfoScort .buutonInfoAllTask .leftPart .boxExs .butINd {
+    width: 111px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .AllInfoScort .buutonInfoAllTask .leftPart .boxExs .butINd h2 {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #28a745;
+  }
+  .AllInfoScort .buutonInfoAllTask .leftPart .boxExs .butINd img {
+    margin-top: -8px;
+  }
+  .AllInfoScort .buutonInfoAllTask .leftPart .boxExs .butINd p {
+    color: #242c42;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .AllInfoScort .buutonInfoAllTask .rightPart {
+    width: 599px;
+    height: 464px;
+    padding-left: 70px;
+    text-transform: uppercase;
+  }
+  .AllInfoScort .buutonInfoAllTask .rightPart h2 {
+    color: #242c42;
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .AllInfoScort .buutonInfoAllTask .rightPart .boxOne {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+  }
+  .AllInfoScort .buutonInfoAllTask .rightPart .boxOne h3 {
+    color: #242c42;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-transform: none;
+    margin-left: 24px;
+  }
+  .topInfoAllBx {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-between;
+    background-color: #28a745;
+  }
+  .topInfoAllBx .leftBoxAllpart {
+    width: auto;
+    height: auto;
+  }
+  .topInfoAllBx .leftBoxAllpart h2 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .topInfoAllBx .leftBoxAllpart p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: -10px;
+  }
+  .topInfoAllBx .rightBoxAllpart {
+    width: 140.3px;
+    height: 40px;
+  }
+  .topInfoAllBx .rightBoxAllpart a {
+    width: 140.3px;
+    height: 40px;
+    background: #242c42;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.3s;
+  }
+  .topInfoAllBx .rightBoxAllpart a:hover {
+    background: #FCC73A;
+    border: 2px solid #28a745;
+    color: #28a745;
+  }
+  .butonAllTas {
+    width: 100%;
+    height: 500px;
+    background: #014126;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .butonAllTas .leftInfo {
+    width: 300px;
+    height: auto;
+  }
+  .butonAllTas .leftInfo h2 {
+    font-size: 16px;
+    color: #FCC73A;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .butonAllTas .leftInfo p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+  }
+  .butonAllTas .leftInfo .buttonInfo {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .butonAllTas .leftInfo .buttonInfo a {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    transition: 0.2s;
+  }
+  .butonAllTas .leftInfo .buttonInfo a:hover {
+    color: #28a745;
+  }
+  .butonAllTas .leftInfo .buttonInfo a:hover .fa-envelope {
+    color: #fff;
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+  }
+  .butonAllTas .leftInfo .buttonInfo a:hover .fa-phone {
+    color: #fff;
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+  }
+  .butonAllTas .leftInfo .buttonInfo a:hover .fa-location-dot {
+    color: #fff;
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+  }
+  .butonAllTas .leftInfo .buttonInfo a .fa-envelope {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+  }
+  .butonAllTas .leftInfo .buttonInfo a .fa-phone {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+  }
+  .butonAllTas .leftInfo .buttonInfo a .fa-location-dot {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+  }
+  .butonAllTas .centerInfo {
+    width: 262.5px;
+    height: auto;
+    padding: 0;
+  }
+  .butonAllTas .centerInfo h2 {
+    color: #FCC73A;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+  }
+  .butonAllTas .centerInfo .butonOn {
+    display: flex;
+    padding: 0;
+    margin-top: 20px;
+  }
+  .butonAllTas .centerInfo .butonOn .leftListt {
+    padding: 0;
+  }
+  .butonAllTas .centerInfo .butonOn .leftListt li {
+    margin-top: 12px;
+  }
+  .butonAllTas .centerInfo .butonOn .leftListt li a {
+    color: #fff;
+    font-size: 14px;
+    transition: 0.2s;
+  }
+  .butonAllTas .centerInfo .butonOn .leftListt li a:hover {
+    color: #28a745;
+  }
+  .butonAllTas .centerInfo .butonOn .leftListt li a:hover .fa-chevron-right {
+    rotate: 90deg;
+  }
+  .butonAllTas .centerInfo .butonOn .leftListt li a .fa-chevron-right {
+    color: #28a745;
+    width: 14px;
+    height: 14px;
+    transition: 0.5s;
+  }
+  .butonAllTas .centerInfo .butonOn .rightList {
+    padding: 0;
+    margin-left: 15px;
+  }
+  .butonAllTas .centerInfo .butonOn .rightList li {
+    margin-top: 12px;
+  }
+  .butonAllTas .centerInfo .butonOn .rightList li a {
+    color: #fff;
+    font-size: 14px;
+    transition: 0.2s;
+  }
+  .butonAllTas .centerInfo .butonOn .rightList li a:hover {
+    color: #28a745;
+  }
+  .butonAllTas .centerInfo .butonOn .rightList li a:hover .fa-chevron-right {
+    rotate: 90deg;
+  }
+  .butonAllTas .centerInfo .butonOn .rightList li a .fa-chevron-right {
+    color: #28a745;
+    width: 14px;
+    height: 14px;
+    transition: 0.5s;
+  }
+  .butonAllTas .rightAllInfoAs {
+    width: 262.5px;
+    height: auto;
+    margin-top: -100px;
+  }
+  .butonAllTas .rightAllInfoAs h2 {
+    font-size: 16px;
+    color: #FCC73A;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+  }
+  .butonAllTas .rightAllInfoAs h3 {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+  }
+  .butonAllTas .rightAllInfoAs h4 {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+  }
+  .butonAllTas .rightAllInfoAs .icon_one_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .butonAllTas .rightAllInfoAs .icon_one_box a {
+    width: 30px;
+    height: 30px;
+    background: #28a745;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: 0.2s;
+  }
+  .butonAllTas .rightAllInfoAs .icon_one_box a:hover {
+    background: #62d87e;
+  }
+  .butonAllTas .rightAllInfoAs .icon_one_box a .fa-tiktok {
+    width: 14px;
+    height: 14px;
+    color: #fff;
+  }
+  .butonAllTas .rightAllInfoAs .icon_one_box a .fa-youtube {
+    width: 14px;
+    height: 14px;
+    color: #fff;
+  }
+  .butonAllTas .rightAllInfoAs .icon_one_box a .fa-instagram {
+    width: 14px;
+    height: 14px;
+    color: #fff;
+  }
+  .butonAllTas .rightAllInfoAs .icon_one_box a .fa-paper-plane {
+    width: 14px;
+    height: 14px;
+    color: #fff;
+  }
+  .butonAllTas .rightAllInfoAs .icon_one_box a .fa-comment {
+    width: 14px;
+    height: 14px;
+    color: #fff;
+  }
+  .fuutwe {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #014126;
+    border-top: 2px solid #28a745;
+    padding-right: 50px;
+  }
+  .fuutwe .leftInfo ul {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
+  .fuutwe .leftInfo ul li {
+    margin-left: 10px;
+  }
+  .fuutwe .leftInfo ul li a {
+    font-size: 12px;
+    color: rgba(160, 160, 160, 0.8);
+    transition: 0.2s;
+  }
+  .fuutwe .leftInfo ul li a:hover {
+    color: #28a745;
+  }
+  .fuutwe .rightInfo {
+    display: block;
+    width: 200px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .fuutwe .rightInfo a:nth-child(1) {
+    color: rgba(160, 160, 160, 0.8);
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    display: block;
+  }
+  .fuutwe .rightInfo a:nth-child(1) .fa-code {
+    color: #cd3d73;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .fuutwe .rightInfo a:nth-child(2) {
+    width: 40px;
+    height: 40px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .fuutwe .rightInfo a:nth-child(2):hover {
+    background: #28a745;
+    color: #fff;
+  }
+  .fuutwe .rightInfo a:nth-child(2):hover .fa-bounce {
+    color: #fff;
+  }
+  .fuutwe .rightInfo a:nth-child(2) .fa-bounce {
+    color: #28a745;
+  }
+}
+@media (max-width: 700px) {
+  .AsosiyPage {
+    width: 100%;
+    height: auto;
+  }
+  .AsosiyPage .topinfo {
+    display: none;
+  }
+  .AsosiyPage .butonInfo {
+    display: none;
+  }
+  .AsosiyPage .butonInfoMedia {
+    display: block;
+    width: 100%;
+    height: 61.2667px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    background-color: #fff;
+    z-index: 20;
+    box-shadow: 0 0 10px 2px #969696;
+  }
+  .AsosiyPage .butonInfoMedia .logo {
+    width: 125px;
+    height: 41.7667px;
+  }
+  .AsosiyPage .butonInfoMedia .logo a img {
+    width: 125px;
+    height: 41.7667px;
+  }
+  .AsosiyPage .butonInfoMedia button {
+    background: #28a745;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 50px;
+    height: 44px;
+  }
+  .AsosiyPage .butonInfoMedia button .fa-bars {
+    width: 23px;
+    height: 23px;
+  }
+  .AsosiyPage .butonInfoMedia .offcanvas {
+    width: 100%;
+    height: auto;
+    background: #242c42;
+  }
+  .AsosiyPage .butonInfoMedia .offcanvas .offcanvas-header {
+    border-bottom: 2px solid #28a745;
+  }
+  .AsosiyPage .butonInfoMedia .offcanvas .offcanvas-header button {
+    background: none;
+  }
+  .AsosiyPage .butonInfoMedia .offcanvas .offcanvas-header .text-reset {
+    background: #28a745;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 50px;
+    height: 44px;
+  }
+  .AsosiyPage .butonInfoMedia .offcanvas .offcanvas-header .text-reset .fa-xmark {
+    width: 23px;
+    height: 23px;
+    color: #ffffff;
+  }
+  .AsosiyPage .butonInfoMedia .offcanvas .offcanvas-body ul li a {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .AsosiyPage .headerButtom {
+    padding: 40px;
+    padding-left: 20px;
+    margin-top: 50px;
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20220329/pngtree-islamic-background-banner-design-for-ramadan-or-eid-mubarak-image_1069501.jpg) no-repeat center center/cover;
+  }
+  .AsosiyPage .headerButtom h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .AsosiyPage .headerButtom p {
+    text-align: center;
+  }
+  .AsosiyPage .headerButtom a {
+    margin: auto;
+  }
+  .AsosiyPage .headerButtomm {
+    padding: 40px;
+    padding-left: 20px;
+    background: url(https://t3.ftcdn.net/jpg/04/90/58/18/360_F_490581855_hJlOGEIskZjxOqOJ1vEFJNRJ4d0oHAm0.jpg) no-repeat center center/cover;
+    margin-top: 50px;
+  }
+  .AsosiyPage .headerButtomm h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .AsosiyPage .headerButtomm p {
+    text-align: center;
+  }
+  .AsosiyPage .headerButtomm a {
+    margin: auto;
+  }
+  .AsosiyPage .headerButtommm {
+    padding: 40px;
+    padding-left: 20px;
+    background: url(https://img.freepik.com/premium-vector/islamic-ramadan-kareem-banner-background-gold-lantern-mandala-pattern-mosque-moon-abstract-luxury-islamic-elements-background_181182-19127.jpg) no-repeat center center/cover;
+    margin-top: 50px;
+  }
+  .AsosiyPage .headerButtommm h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .AsosiyPage .headerButtommm p {
+    text-align: center;
+  }
+  .AsosiyPage .headerButtommm a {
+    margin: auto;
+  }
+  .NavInfo {
+    width: 100%;
+    height: auto;
+  }
+  .NavInfo .buutonTesos {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .NavInfo .buutonTesos .card {
+    width: 250px;
+    height: 350px;
+    border: none;
+  }
+  .SectionAsosiy {
+    width: 100%;
+    height: auto;
+  }
+  .SectionAsosiy .buttonOneAndSectionPart {
+    width: 100%;
+    height: auto;
+  }
+  .SectionOn {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .SectionOn .buttonInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .SectionCorusel {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+  }
+  .SectionCorusel .mySwiper {
+    height: 600px;
+    position: relative;
+  }
+  .SectionCorusel .boxCorusel {
+    height: 600px;
+  }
+  .SectionCorusel .boxCorusel .leftInfo {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .SectionCorusel .boxCorusel .leftInfo img {
+    width: 280px;
+    height: 202.5px;
+    margin-top: 260px;
+    margin-right: 280px;
+  }
+  .asideAllTasks {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .buttonInfoCommnet {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .ArticleAsosiy {
+    width: 100%;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 69px;
+    padding-bottom: 70px;
+    margin-top: -10px;
+  }
+  .ArticleAsosiy .leftInfo {
+    display: none;
+  }
+  .ArticleAsosiy .rightinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ArticleAsosiy .rightinfo h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .ArticleAsosiy .rightinfo p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .AllInfoScort {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .AllInfoScort .paragrf h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  .AllInfoScort .buutonInfoAllTask {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  .AllInfoScort .buutonInfoAllTask .leftPart {
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    position: relative;
+    background: url(../../../../public/img/asosiy/imgJSa.jpg) no-repeat center center/cover;
+    border-radius: 35px;
+  }
+  .AllInfoScort .buutonInfoAllTask .leftPart .boxExs {
+    width: 112.8px;
+    height: 127.67px;
+    position: absolute;
+    display: none;
+    top: 250px;
+    left: 50px;
+  }
+  .AllInfoScort .buutonInfoAllTask .leftPart .boxExs img {
+    width: 35.85px;
+    height: 35.85px;
+  }
+  .AllInfoScort .buutonInfoAllTask .rightPart {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+  .AllInfoScort .buutonInfoAllTask .rightPart h2 {
+    font-size: 24px;
+  }
+  .AllInfoScort .buutonInfoAllTask .rightPart .boxOne {
+    width: 100%;
+    height: auto;
+  }
+  .AllInfoScort .buutonInfoAllTask .rightPart .boxOne h3 {
+    font-size: 14px;
+  }
+  .topInfoAllBx {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .butonAllTas {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+  }
+  .butonAllTas .leftInfo {
+    width: 100%;
+    height: auto;
+  }
+  .butonAllTas .centerInfo {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .butonAllTas .rightAllInfoAs {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .fuutwe {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .fuutwe .leftInfo ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .fuutwe .rightInfo {
+    margin-left: auto;
+  }
+}/*# sourceMappingURL=index.css.map */
